@@ -1,0 +1,5 @@
+.fluid-row {
+	@include grid-row();
+	position: relative;
+	max-width: 100%;
+}
