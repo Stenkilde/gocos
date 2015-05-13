@@ -17,7 +17,12 @@
         name: 'user',
         url: '/user',
         templateUrl: 'modules/user/user.template.html',
-        controller: 'User'
+        controller: 'User',
+		resolve: {
+			"currentAuth": ["Auth", function(Auth) {
+				return Auth.$requireAuth();
+			}]
+		}
       };
 
       $stateProvider.state(User);
