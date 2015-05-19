@@ -19,7 +19,7 @@
 
 		vm.auth = UserService;
 
-		console.log(UserService.$getAuth());
+
 
 		activate();
 		function activate() {

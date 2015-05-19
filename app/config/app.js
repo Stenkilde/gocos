@@ -11,7 +11,7 @@
 	 */
 	angular
 		.module('gocosApp', [
-		
+
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -27,7 +27,7 @@
     'angulartics',
     'angulartics.google.analytics',
     'hj.gsapifyRouter',
-    'mm.foundation'
-  
+    'mm.foundation',
+	'firebase'
 	]);
 })();
